@@ -1,15 +1,16 @@
-import React, {useState} from 'react';
+import React from 'react';
+import './App.css';
 import Home from './paginas/home/Home';
-import './App.css'
+import Navbar from './components/navBar/NavBar';
+import Footer from './components/footer/Footer';
 
 function App() {
-
-  
   return (
     <>
-      <Home />
+    <Navbar/>
+    <Home/>
+    <Footer/>
     </>
-  );
+);
 }
-
-export default App
+export default App;
